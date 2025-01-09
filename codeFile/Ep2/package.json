@@ -1,0 +1,14 @@
+{
+  "name": "ep2",
+  "version": "1.0.0",
+  "description": "React With Razik",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "razik khan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
