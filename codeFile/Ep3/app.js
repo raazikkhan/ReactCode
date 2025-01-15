@@ -1,8 +1,31 @@
 import React from "react";
 import reactDom from "react-dom/client";
+import "./style.css";
 
-const heading = <h1 id="heading">hello this is jsx code</h1>;
+//in react everything is a component
 
-console.log(heading);
+let UserInfo = () => {
+  return (
+    <div>
+      <h2>hello welcome to the Namaste React Course !</h2>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <>
+      <UserInfo />
+      <h1 className="heading">hey this is Razik !</h1>
+      <h3 id="slogan">
+        im a react developer !{" "}
+        <span>
+          <button>Hire Me</button>
+        </span>
+      </h3>
+    </>
+  );
+};
+
 const root = reactDom.createRoot(document.getElementById("root"));
-root.render(root);
+root.render(<App />);
