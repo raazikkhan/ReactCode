@@ -1,14 +1,29 @@
 {
   "name": "ep3",
   "version": "1.0.0",
-  "description": "This is a Episode3",
+  "description": "nothing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
   },
-  "author": "razik khan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raazikkhan/ReactCode.git"
+  },
+  "author": "razik",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raazikkhan/ReactCode/issues"
+  },
+  "homepage": "https://github.com/raazikkhan/ReactCode#readme",
   "devDependencies": {
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
