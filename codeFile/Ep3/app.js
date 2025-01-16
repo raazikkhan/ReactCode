@@ -20,7 +20,7 @@ const App = () => {
       <h3 id="slogan">
         im a react developer !{" "}
         <span>
-          <button>Hire Me</button>
+          <button>Hire Mew</button>
         </span>
       </h3>
     </>
